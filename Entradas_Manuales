@@ -1,0 +1,5 @@
+ket=[tuple(map(float, x.split(","))) for x in (input().split(" "))]
+X=int(input())
+print(detectarParticula(ket,X))
+ket2=[tuple(map(float, x.split(","))) for x in (input("").split(" "))]
+print(transitarVector(ket,ket2))
