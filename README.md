@@ -1,2 +1,2 @@
 # SIMULADOR 
-# SISTEMA CUANTICO EN UNA LINEA DE PARTICULA
+# Sistema cuántico de partícula en una línea
