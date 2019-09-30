@@ -11,7 +11,7 @@ El simulador permite especificar el número de posiciones y un vector ket de est
 
 El estado actual de la partícula ndimensional puede representarse en un vector de columna compleja [c0, c1,. . . , cn − 1] T.
 Sera nombrado como *ket* y cada estado de nuestro sistema sera representado por un elemento de Cn como
-
+![aca](https://user-images.githubusercontent.com/45296448/65923022-ee18e600-e3ac-11e9-8aa2-48ae0af4e418.PNG)
 
 ## Como usar
 
@@ -75,6 +75,10 @@ Y el resultado sera:
         Noson S. Yanofsky 
         Mirco A. Mannucci
     
-    
-    
+Para mas proyectos, Sigueme y encuentra mis repositorios de computacion cuantica
+# Buscar mas ...
+CALCULADORA DE NUMEROS COMPLEJOS 
+https://github.com/Wasawsky/CNYT_COMPLEJOS.git
+
+
 *Por: Michael Ballesteros*
