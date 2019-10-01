@@ -21,7 +21,11 @@ def transitarVector(ket,ket2):
     cal=Calculadora()
     ket1=cal.transpuesta([ket])
     bra=cal.matrizConjugada([ket2])
-    return cal.multiplicacionMatrizMatriz(bra,ket1)[0][0]
+    car=cal.multiplicacionMatrizMatriz(bra,ket1)[0][0]
+    normaBra=cal.normaMatriz(bra)
+    normaket=cal.normaMatriz(ket1)
+    car2=(normaBra*normaket,0)
+    return cal.division(car,car2)
 
 def interfaz():
     """ En caso de necesitarlo el simulador genera una interfaz con el usuario
