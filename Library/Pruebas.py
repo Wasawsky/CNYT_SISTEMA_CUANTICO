@@ -1,3 +1,4 @@
+#Version 2.0
 import unittest
 from Calculadora import *
 
@@ -84,9 +85,6 @@ class Pruebaa(unittest.TestCase):
     def test_productoInternoMatriz(self):
         a=Calculadora()
         self.assertEqual(a.productoInternoMatriz([[(1.0, 0.0), (-1.0, 0.0)], [(1.0, 0.0), (1.0, 0.0)]],[[(2.0, 0.0), (1.0, 0.0)], [(1.0, 0.0), (3.0, 0.0)]]),(5.0, 0.0))
-    def test_productoInternoMatrizImposible(self):
-        a=Calculadora()
-        self.assertEqual(a.productoInternoMatriz([[(1.0, 0.0), (-1.0, 0.0)], [(1.0, 0.0), (1.0, 0.0)]],[[(1.0, 0.0), (3.0, 0.0)]]),"Imposible")
     def test_normaMatriz(self):
         a=Calculadora()
         self.assertEqual(a.normaMatriz([[(3.0, 2.0), (2.0, 4.0)], [(1.0, 3.0), (4.0, 5.0)]]),9.16515138991168)
