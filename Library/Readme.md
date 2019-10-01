@@ -44,7 +44,7 @@ Producira un resultado:
 `(3,1)`
 
 En caso de que tenga problemas puede ejecutar el archivo Pruebas.py para ejecutar las pruebas establecidas.
-En el repositorio existe un archivo Entradas_Manuales en las que puede ver codigo que le puede ayudar a hacer lectura de datos para la calculadora por teclado; tambien esta el archivo Casos_Prueba si desea usar el archivo de Entradas_Manuales para probar casos de prueba.
+En el repositorio existe un archivo Casos_Prueba si desea probar casos de prueba.
 
 ### Como usarlo por consola?
 
@@ -62,8 +62,9 @@ Puede ejecutar el idle de python si escribe
 
 Estando en el directorio puede ejecutar 
 
-        import Calculadora
-        Calculadora.suma((1,0),(2,1))
+        from Calculadora import *
+        a=Calculadora()
+        a.suma((1,0),(2,1))
         
 Y el resultado sera:
 
