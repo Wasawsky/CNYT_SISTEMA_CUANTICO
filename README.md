@@ -25,6 +25,8 @@ Despues de tenerlo, puede crear un archivo .py en el mismo directorio del archiv
 
 Importe la libreria en el nuevo archivo y use las operaciones de manera directa
 Por ejemplo el siguiente codigo le indicara cual es la probabilidad de encontrar una particula dandole el ket y la posicion:
+El sistema esta dado por:
+![aca](https://user-images.githubusercontent.com/45296448/66001638-7e1b6600-e467-11e9-84e2-dc4b59716a6f.PNG)
 
 `import Simulador_Sistema_Cuantico`
 
