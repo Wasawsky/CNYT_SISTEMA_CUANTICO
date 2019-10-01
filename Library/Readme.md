@@ -33,10 +33,10 @@ Despues de tenerlo, puede crear un archivo .py en el mismo directorio del archiv
 Importe la libreria en el nuevo archivo y use las operaciones de manera directa
 Por ejemplo el siguiente codigo le indicara la suma de 2 complejos:
 
-`import Calculadora`
+`from Calculadora import *`
 
-`a=Calculadora.suma((1,0),(2,1))`
-
+`calc=Calculadora()`
+`a=calc.suma((1,0),(2,1))`
 `print(a)`
 
 Producira un resultado:
